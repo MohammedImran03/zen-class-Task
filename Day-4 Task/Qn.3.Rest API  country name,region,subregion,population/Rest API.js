@@ -17,11 +17,11 @@ Result.onload = function () {
     let users = JSON.parse(Result
     .response);
     //  console.log(users);
-users.forEach(({name,flag}) => {
+users.forEach(({name,region,subregion,population}) => {
     let {common}=name;
  let p = document.createElement("p");
 // p.innerHTML = `${index + 1} <b>${value.official}</b> : ${value.common}`;
-p.innerHTML=`${common}: <b>${flag}</b>`;
+p.innerHTML=`Country Name:-<b>${common}</b>, Region:-<b>${region}</b>, Subregion:-<b>${subregion}</b>, Population:-<b>${population}</b>`;
 div.appendChild(p);
 
     });
