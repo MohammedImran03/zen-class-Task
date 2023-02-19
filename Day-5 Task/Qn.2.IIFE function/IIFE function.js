@@ -1,4 +1,4 @@
-// a.Print odd numbers in an array
+// a.Print the odd numbers in an array
 let array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
 function oddnumber(array){
     let temp=[];
@@ -21,7 +21,7 @@ function Titlecase(String) {
     }
     Titlecase("hello all welcome to guvi zen class");
 
-//c.Sum of all numbers in an array
+//c.Sum of all the numbers in an array
 function sum(arr){
     let sum=0
     for(let i of arr){
@@ -31,7 +31,7 @@ function sum(arr){
 }
 sum(array);
 
-//d.Return all prime numbers in an array
+//d.Return all the prime numbers in an array
 function PrimeNumber(array){
     let prime = [];
     for(let i=0;i<array.length;i++){
