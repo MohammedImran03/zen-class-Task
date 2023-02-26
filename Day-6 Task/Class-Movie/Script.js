@@ -23,16 +23,13 @@ let ratings= [
      Rating:"PG"},
      {Title:"CIVIL WAR",
      Studio:"GLOBAL",
-     Rating:"PG-13"},
+     Rating:"PG"},
      {Title:"END GAME",
      Studio:"THEATER",
      Rating:"PG-13"},
      {Title:"WAKANDA",
      Studio:"OTT",
      Rating:"PG"},
-     {Title:"Thor",
-     Studio:"INT",
-     Rating:"PG-13"},
 ]
 let rating1= new MovieRating("Casino Royale","Eno Productions","PG13");
 console.log(rating1);
