@@ -24,7 +24,7 @@ population<200000
 Rest.forEach(({name,capital,flag}) => {
     let {common}=name;
  let p = document.createElement("p");
-p.innerHTML=`Country Name:-<b>${common}</b>,Capital:-<b>${capital}</b>, Flag:-<b>${flag}</b>.`;
+p.innerHTML=`Country Name : <b>${common}</b>,Capital : <b>${capital}</b>, Flag : <b>${flag}</b>.`;
 div.appendChild(p);
 });
 
@@ -32,7 +32,7 @@ div.appendChild(p);
 let Result3=Rest.reduce((initial,total) =>initial+total.population,0);
 console.log("Total Population:"+Result3);
 
-//e. Print the country which uses US Dollars as currency.
+//e.Print the country which uses US Dollars as currency.
 let answer = Rest.filter((dummy) => (dummy.currencies !== undefined))
 console.log(answer.length);
 let realanswer = answer.filter((data) =>  {
